@@ -1,23 +1,18 @@
 <!DOCTYPE html>
-<html lang="kr">
+<html lang="en">
   <head>
-    <link
-      rel="icon"
-      href="https://www.youtube.com/s/desktop/3df27587/img/logos/favicon_48x48.png"
-      sizes="48x48"
-    />
-    <title>Gromit's website</title>
-    <meta charset="utf-8" />
-    <meta name="description" content="This is gromit website" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home - My first website.</title>
   </head>
   <body>
-    <h1>Hello!</h1>
-    <a href="http://google.com" target="_blank">love</a>
-    <img src="gromit.jpg" />
-    <audio
-      controls
-      autoplay
-      src="https://interactive-examples.mdn.mozilla.net/media/cc0-audio/t-rex-roar.mp3"
-    ></audio>
+    <form id="form">
+      <input type="file" accept="image/*" />
+      <input required placeholder="Name" type="number" />
+      <input required placeholder="Last Name" type="text" />
+      <input required placeholder="Username" type="text" />
+      <input required placeholder="Password" minlength="10" type="password" />
+      <input type="submit" value="Create Account" />
+    </form>
   </body>
 </html>
