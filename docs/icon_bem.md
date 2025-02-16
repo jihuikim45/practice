@@ -18,7 +18,7 @@
 ```</div>
 
     <script
-      src="https://kit.fontawesome.com/6478f529f2.js"
+      src="https://use.fontawesome.com/releases/v5.2.0/js/all.js"
       crossorigin="anonymous"
     ></script>
   </body>
@@ -32,6 +32,22 @@
 ---
 
 <br>
+
+> ### 아이콘 크기를 바꾸는 방법
+
+```html
+<i class="fas fa-battery-full"></i>
+```
+
+아이콘 이름 옆에 <<space>> fa-2x라고 붙여준다
+
+```html
+<i class="fas fa-battery-full fa-2x"></i>
+```
+
+<h4> º 아이콘 크기를 바꿔주는 class 이름: 2x, lg
+
+<bar>
 
 > ### 아이콘이 정해지지 않았을 때 <br>
 >
