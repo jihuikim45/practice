@@ -4,7 +4,7 @@
 
 > ### margin을 없애는 방법
 >
-> reset css는 대부분의 대그에 <br>
+> reset css는 대부분의 태그에 <br>
 > margin:0, padding:0, bordeer:0 을 가진 css파일을 말한다 <br>
 
 <h5> reset css가 유용한 이유는는 프로그래머는 브라우저에 의해 적용되는 스타일을 원하지 않기 때문이다. <br>
