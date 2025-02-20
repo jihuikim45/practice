@@ -45,9 +45,17 @@
 <i class="fas fa-battery-full fa-2x"></i>
 ```
 
-<h4> º 아이콘 크기를 바꿔주는 class 이름: 2x, lg
-
-<bar>
+```html
+º 아이콘 크기
+<i class="fas fa-user fa-xs"></i>
+<i class="fas fa-user fa-sm"></i>
+<i class="fas fa-user fa-lg"></i>
+<i class="fas fa-user fa-2x"></i>
+<i class="fas fa-user fa-3x"></i>
+<i class="fas fa-user fa-5x"></i>
+<i class="fas fa-user fa-7x"></i>
+<i class="fas fa-user fa-10x"></i>
+```
 
 > ### 아이콘이 정해지지 않았을 때 <br>
 >
@@ -56,6 +64,12 @@
 
 ```html
 <!--  Icon -->
+```
+
+> css 상에서 주석처리 <br>
+
+```css
+/* To Do Icon */
 ```
 
 ## BEM 형식이란? <br>

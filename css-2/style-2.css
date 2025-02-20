@@ -1,0 +1,18 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+@import url(reset-2.css);
+@import url(variables-2.css);
+
+/* Components */
+@import url(components-2/status-bar-2.css);
+@import url(components-2/nav-bar.css);
+@import url(components-2/screen-header.css);
+@import url(components-2/user-components.css);
+
+/* screens */
+@import url(screens-2/logins-2.css);
+@import url(screens-2/friends.css);
+
+body {
+  color: #2e363e;
+  font-family: "Open Sans", serif;
+}
